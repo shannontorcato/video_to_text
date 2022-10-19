@@ -4,7 +4,7 @@ from configure import auth_key
 import youtube_dl
 import os
 
-directory = "D:/1programming/video_to_text"
+directory = "D:/programming/video_to_text"
 
 files_in_directory = os.listdir(directory)
 filtered_files = [file for file in files_in_directory if file.endswith(".mp3")]
